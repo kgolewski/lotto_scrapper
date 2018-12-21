@@ -1,14 +1,10 @@
 <?php
 
-class Spider {
+namespace Crawler;
 
+interface Spider {
 
+    public function crawl();
 
-    public function __construct() {
-
-    }
-
-    public function crawl() {
-        // return [...]
-    }
+    public function getResults();
 }
